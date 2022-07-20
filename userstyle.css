@@ -59,10 +59,9 @@
 
 /* COMPATIBILITY NOTICE */
 /* The :has() pseudoclass will make things a LOT EASIER and I'll no longer need 7 different stylesheets. However, most browsers do not support it YET */
-/* Chromium is actively working on implementing support for :has() : https://bugs.chromium.org/p/chromium/issues/detail?id=669058 */
+/* Chromium has already implemented support for :has() : https://bugs.chromium.org/p/chromium/issues/detail?id=669058 */
 /* Mozilla is *probably* working on implementing support for :has(): https://bugzilla.mozilla.org/show_bug.cgi?id=418039 */
 /* Safari already implemented support for :has(): https://developer.apple.com/safari/technology-preview/release-notes/ */
-/* I honestly can't believe safari is first at something lol */
 /* Proof that this syntax works (on Safari Preview) : https://u.cubeupload.com/BarelySmooth/Screenshot20220130at.png */
 
 /* .page:has(.ideas-banner) {
